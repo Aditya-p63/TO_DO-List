@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+      background-color: #eaf4ec;
+    width: 100%;
+    color:purple;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.input-container{
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.input-container input{
+    border: 0;
+    margin: 0;
+    padding: 12px;
+    margin-block: 12px;
+    border-radius: 14px;
+    font-size: 15px;
+}
+
+.input-container input[type ="text"]{
+    width: 70%;
+    max-width: 450px;
+}
+
+.input-container input[type ="button"]{
+    background-color: rgb(7, 7, 233);
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 8px;
+    padding: 12px 20px;
+    font-size: 19px;
+}
+.input-container input[type ="button"]:hover{
+    background-color: rgb(9, 9, 145);
+}
+
+ul{
+    margin: 20px auto;
+    width: 100%;
+    max-width: 450px;
+}
+
+ul li{
+    list-style-type: none;
+    cursor: pointer;
+    border: 0.125px solid blue;
+    margin-block-end: 12px;
+    border-radius: 4px;
+    padding: 6px 12px;
+    background-color: rgb(127, 255, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition:  background-color 0.5s;
+}
+
+ul li:hover{
+    background-color: rgb(154, 235, 73);
+}
+ul li p{
+    flex-grow: 1;
+    padding: 2px;
+}
+
+.btn{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: none;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.delet{
+    color: #f40707;
+
+}
+
+.edit{
+    color:blueviolet;
+}
